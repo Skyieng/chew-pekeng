@@ -311,6 +311,7 @@
   /* widths for rows and containers
    */
 	--width-sixteen-cols: 1760px;
+	--width-ten-cols	: 1200px;
 	--width-default     : 1320px;
 	--width-wide        : 1600px;
 	--width-wider       : 1800px;
@@ -2749,6 +2750,10 @@ td:last-child {
  * ------------------------------------------------------------------- */
 .width-sixteen-col {
 	--width-grid-max: var(--width-sixteen-cols);
+}
+
+.width-ten-col {
+	--width-grid-max: var(--width-ten-cols);
 }
 
 .width-narrower {
